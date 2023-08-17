@@ -1,0 +1,158 @@
+.header {
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    padding-left: 10px 50px;
+}
+
+.nav>li {
+    display: inline-block;
+    color: white;
+    margin-left: 30px;
+}
+
+.nav>li>button {
+    background-color: black;
+    color: white;
+    border-radius: 25px;
+    width: 140px;
+    height: 50px;
+    border-color: white;
+
+}
+
+body {
+    margin-top: 0%;
+    background-color: black;
+}
+
+.inline {
+    display: inline-block;
+    font-weight: bold;
+    vertical-align: middle;
+    padding-left: 40px;
+}
+
+.Get {
+    border-radius: 20px;
+    background-color: red;
+    width: 120px;
+    height: 50px;
+
+}
+
+.Menu>h1 {
+    background-color: rgb(18, 18, 18);
+    width: 100%;
+    height: 90px;
+    text-align: center;
+    margin-top: 0PX;
+    margin-left: 0px;
+    color: white;
+    padding-top: 30PX;
+}
+
+.third {
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-family: 'Apercu';
+    font-style: normal;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 40px;
+
+}
+
+span {
+    font-family: 'futurak';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 52px;
+    line-height: 62px;
+    color: #FFFFFF;
+}
+
+p {
+    color: rgb(175, 173, 173);
+}
+
+.card {
+    margin: 10px;
+
+}
+
+.btn {
+    color: white;
+    border-color: rgb(73, 72, 72);
+    border-radius: 25px;
+    padding: 10px;
+    width: 150px;
+    box-shadow: 5px;
+}
+
+.fourth {
+    width: 100%;
+    height: 1100px;
+    background-color: rgb(29, 28, 28);
+   
+}
+.fourth > h1 {
+    font-family: 'futurak';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 62px;
+    font-weight: bolder;
+}
+.isl{
+    color: brown;
+    /* font-weight: 700; */
+    letter-spacing: 3px;
+    font-size: larger;
+}
+.fourth > h2 {
+    font-weight: bolder;
+}
+.fourth > h3{
+    font-size: 40px;
+}
+button > img {
+    background-color: #FFFFFF;
+    height: 15px;
+}
+.left{
+    width: 50%;
+    float: left;
+    padding: 20px;
+}
+.side {
+    width: 50%;
+    float: right;
+    padding: 20px;
+}
+.last{
+    width: 50%;
+    float: left;
+    padding: 20px;
+}
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+
+  .row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  .fIfth{
+    padding: 40px;
+  }
+  .brown {
+    color: brown;
+  }
+  .column > h2{
+    font-weight: bolder;
+  }
